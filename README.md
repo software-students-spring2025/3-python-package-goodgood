@@ -24,12 +24,12 @@ pip install --upgrade uselessString
 
 2. Package function. 
 (1) .palindrome(s)
-Check if a string is pallindrome. (case insensitive, ignores spaces, and returns bollean value)
+Reverses every character in a given string.
+ie. “Hello, world!” → “!dlrow ,olleH”
 
 (2).reverse(s)
 Reverse all the words in a string. 
-
-
+ie. “Hello, world!” → “world! Hello,”
 
 (3).echo(s, i)
 Repeat the word s i times. 
