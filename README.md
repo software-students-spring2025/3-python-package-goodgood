@@ -24,17 +24,7 @@ pip install --upgrade uselessString
 
 2. Package function. 
 (1) .palindrome(s)
-Convert a string to its palindrome
-```python
-def palindrome(s: str) -> str:
-    """
-    :param s: A random string
-    :raises TypeError: If the input is not a string.
-    """
-
-result = uselessString.palindrome("Hello World") # return "dlrow olleH”
-print(result)
-```
+Check if a string is pallindrome. (case insensitive, ignores spaces, and returns bollean value)
 
 (2).reverse(s)
 Reverse all the words in a string. 
