@@ -11,7 +11,7 @@ class Tests:
         emotion_list = ["happy", "friendly", "laughing", "laugh", "numb", "wordless", "surprise", "angry", "sad", "cheated", " "]
         emotion = random.choice(emotion_list)
         s = "Hello, World!"
-        input = (s, emotion)
+        input = s, emotion
         return input
     
     def test_sanity_check(self, example_fixture): 
@@ -66,5 +66,4 @@ class Tests:
             else: 
                 expected = emoji.emojize(s + " :shushing_face: ")
                 actual == expected
-
         )f"Expected the string returned by emoji() to be with emotion {emotion}. Instead, it returned '{actual}'"

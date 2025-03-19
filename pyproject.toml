@@ -1,0 +1,41 @@
+[build-system]
+requries = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uselessString" 
+description = "This package aims to provide programmers some variants and interesting capabilities of string, including palindrome (characters reversal), words reversal, customized repetitiveness, emotion expression, etc..."
+version = "0.1.0" 
+authors = [
+    { name = "Tim Yan", email = "wy2135@nyu.edu"}, 
+    { name = "Warren Wu", email = "yw5928@nyu.edu"}, 
+    { name = "Bill Feng", email = "wf2152@nyu.edu"},
+    { name = "Marcos Huh", email = "mh6355@nyu.edu"}
+]
+license = { file = "LICENSE" } 
+readme = "README.md"
+keywords = ["python", "package", "build", "tutorial"]
+requires-python = ">=3.7"
+classfiers = [
+    "Programming Language :: Python :: 3", 
+    "Intended Audience :: Education", 
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)", 
+    "Operating System :: OS Independent", 
+]
+
+dependencies = [
+    "numpy>=1.20.0", 
+    "emoji>=1.6.0" 
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-spring2025/3-python-package-goodgood"
+"Repository" = "https://github.com/software-students-spring2025/3-python-package-goodgood.git"
+"Bug Tracker" = "https://github.com/software-students-spring2025/3-python-package-goodgood/issues"
+
+[project.scripts]
+uselessString = "uselessString.__init__main"
+    
