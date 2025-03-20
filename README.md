@@ -1,11 +1,14 @@
+# 🚀 uselessString Package  
+
+
 ![Build and Test](https://github.com/software-students-spring2025/3-python-package-goodgood/actions/workflows/build.yml/badge.svg)
 
-# 🚀 uselessString Package  
+---
 
 ## 📌 Introduction  
 `uselessString` is a Python package that provides fun and useful string manipulation functions. It includes features such as **palindromes**, **word reversal**, **customized repetitiveness**, **emotive expressions**, and more.  
 
-🔗 **PyPI Package:** [uselessString on PyPI](https://pypi.org/project/uselessString/1.0.0/)  
+🔗 **PyPI Package:** [uselessString on PyPI](https://pypi.org/project/uselessString/1.0.2/)  
 
 ---
 
@@ -23,7 +26,7 @@ pip install --upgrade uselessString
 
 To install directly from **source (for development)**:  
 ```bash
-git clone https://github.com/yourgithubusername/uselessString.git
+git clone https://github.com/software-students-spring2025/3-python-package-goodgood.git
 cd uselessString
 pip install -e .
 ```
@@ -101,13 +104,8 @@ We welcome all contributions! Please follow these steps to contribute:
 
 To ensure the package is working correctly, run:  
 ```bash
-pytest tests/
+pytest
 ```
-
----
-
-## 📜 License  
-This project is licensed under the GNU General Public License v3. See the LICENSE file for details.
 
 ---
 
@@ -119,3 +117,7 @@ This project is licensed under the GNU General Public License v3. See the LICENS
 
 ---
 
+## 📜 License  
+This project is licensed under the GNU General Public License v3. See the LICENSE file for details.
+
+---
