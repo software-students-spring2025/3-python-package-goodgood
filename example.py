@@ -1,4 +1,5 @@
 # Import all functions from the package
+from src.angry import angry
 from src.echo import echo
 from src.emotive import emotive
 from src.mocking import mocking  
@@ -10,7 +11,7 @@ def main():
     test_string = "Hello, World!"
     test_word = "Python"
 
-    print("\n📌 Original String:", test_string)
+    print("\n📌 Original String:", test_string, "\n")
 
     # Palindrome function (Reverses characters in the string)
     print("🔄 Palindrome:", palindrome(test_string))
@@ -21,6 +22,9 @@ def main():
     # Echo function (Repeats the word multiple times)
     print("🔊 Echo (3 times):", echo(test_word, 3))
 
+    # Angry function (Adds rage sequences in between words and exclamation marks at the end)
+    print("😡 Very Angry:", angry(test_string))
+
     # Mocking function (Alternates uppercase/lowercase)
     print("🃏 Mocking Case:", mocking(test_string))
 
@@ -29,6 +33,8 @@ def main():
 
     # Randomize function (Shuffles characters in the string)
     print("🔀 Random Shuffle:", randomize(test_string))
+
+    print("\n")
 
 if __name__ == "__main__":
     main()

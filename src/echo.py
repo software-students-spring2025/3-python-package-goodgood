@@ -1,6 +1,6 @@
 def echo(text: str, num: int) -> str:
     """
-    Repeats the given string the number of times provided
+    Repeats the given string the number of times provided.
 
     Args:
         text (str): The text to be echoed/repeated.

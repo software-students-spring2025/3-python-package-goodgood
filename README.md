@@ -15,14 +15,19 @@
 ## 📦 Installation  
 
 To install the package from **PyPI**, run:  
+
 ```bash
 pip install uselessString
 ```
 
 To upgrade to the latest version:  
+
+And you may upgrade the package.
+
 ```bash
 pip install --upgrade uselessString
 ```
+
 
 To install directly from **source (for development)**:  
 ```bash
@@ -121,3 +126,4 @@ pytest
 This project is licensed under the GNU General Public License v3. See the LICENSE file for details.
 
 ---
+
