@@ -21,6 +21,3 @@ def randomize(text: str) -> str:
             result.append(char)  # Keep punctuation and spaces in place
     
     return "".join(result)
-
-# Example usage
-print(randomize("Hello, World!"))
