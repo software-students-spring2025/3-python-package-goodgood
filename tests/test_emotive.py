@@ -30,10 +30,11 @@ class Tests:
     def test_content(self, example_fixture):
         s, emotion = example_fixture
         actual = emotive(s, emotion)
+        print(emotion)
 
         if (emotion == "happy"):
             expected = s + "\U0001F601"
-        if (emotion == "friendly"):
+        elif (emotion == "friendly"):
             expected = s + "\U0001F603"
         elif (emotion == "laughing"):
             expected = s + "\U0001F602"
