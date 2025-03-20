@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uselessString"  
-version = "1.0.0"  
+version = "1.0.2"  
 description = "A fun string manipulation package"
 readme = "README.md"
 authors = [{ name = "goodgood", email = "wf2152@nyu.edu" }]
