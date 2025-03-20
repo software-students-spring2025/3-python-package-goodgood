@@ -1,10 +1,7 @@
-
-"""
-Enter the emotion and get a string with corresponding emoji at the end of the string. 
-
-"""
 def emotive(s: str, emotion: str) -> str: 
-    
+    """
+    Enter the emotion and get a string with corresponding emoji at the end of the string. 
+    """
     if (emotion.casefold() == "happy".casefold()):
         emoji = "\U0001F601"
     elif (emotion.casefold() == "friendly".casefold()):
