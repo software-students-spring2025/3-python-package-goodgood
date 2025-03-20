@@ -1,4 +1,4 @@
-name:CI/CD
+name: CI/CD
 on: [[pull_request]
 jobs:
   build:
@@ -21,6 +21,7 @@ jobs:
           pipenv install pytest
           pipenv --venv
           pipenv run python -m pytest
+  
   #This part is no necessary
   # deliver:
   #   needs: [build]
