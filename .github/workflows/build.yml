@@ -13,6 +13,12 @@ jobs:
         uses: kojoru/prepare-pipenv@v1
         with:
           python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pipenv twine
+          export PATH="$PATH:$HOME/.local/bin"
+          pipenv install --dev
       - name: Turn on 'editable' mode
         run: |
           pipenv install -e .
